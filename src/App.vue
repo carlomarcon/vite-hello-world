@@ -1,5 +1,9 @@
 <script>
+import Title from "./components/Title.vue";
 export default {
+  components: {
+    Title,
+  },
   data() {
     return {};
   },
@@ -8,6 +12,7 @@ export default {
 
 <template>
   <h1>Hello world</h1>
+  <Title />
 </template>
 
 <style scoped></style>
